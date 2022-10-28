@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react'
 import MoleContainer from './components/MoleContainer'
 
-// MAIN FUNCTION
+// MAIN FUNCTION (REACT COMPONENT)
 function App() {
   let [score, setScore] = useState(0)
 
@@ -30,9 +30,9 @@ function App() {
 // line 8 utilizies "useState" to start the score.  It is set to zero to begin.
 // line 10 declares "createMoleHill"
 // line 11 delcares "hills" as an empty array
-// line 12 "for" statement doing array iterates over an array
+// line 12 "for" statement doing array iterates over an array nine times
 // line 13 "hills.push"-- the "push()" method is used to add to the "hills" array
-// 
+//  each time the for loop runs it will add a "hill". 
 
 
 // EXPORT
